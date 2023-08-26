@@ -37,6 +37,7 @@ background:#c5bebe;
 padding:30px 0px;
 font-family: 'Play', sans-serif;
 text-align:center;
+padding-top: 50px;
 }
 
 .footer .row{
@@ -96,7 +97,7 @@ body{
     
 }
 .col2{
-    background-color: antiquewhite;
+    background-color: rgb(161, 194, 235);
     float: right;
     width: 70%;
     height: 200px;
@@ -131,12 +132,11 @@ body{
             </div>
         </header>
         <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30768016.174984068!2d60.91142649822424!3d19.718526279594183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1693029971886!5m2!1sen!2sin" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe style="width: 100%; height: 500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30768016.174984068!2d60.91142649822424!3d19.718526279594183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1693029971886!5m2!1sen!2sin" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          </div>
         <h3>EXPLORE YOUR DESTINATION</h3>
         <div>
         <div class="col1">
-            
             <img class="imagetable" src="./Taj-Mahal.jpg" alt="">
         </div>
         <div class="col2">
@@ -144,48 +144,135 @@ body{
                 <b><h3>INDIA</h3></b>
             </div>
             <p style="padding-left: 15px; padding-right: 10px;">India is a land of diverse landscapes, cultures, and historical richness, making it a treasure trove of travel destinations. From the majestic Himalayan mountains in the north to the serene backwaters of Kerala in the south.</p>
-            <div>
+            
                 <label class="selectstate" for="states">Select  State</label>
                 <select>
-                    <option name="karnataka" id="KAR">KARNATAKA</option>
-                    <option name="maharastra" id="MH">MAHARASTRA</option>
-                    <option name="goa" id="KE">GOA</option>
-                    <option name="kerala" id="KE">KERALA</option>
+                    <option name="karnataka" id="KAR">Karnataka</option>
+                    <option name="maharastra" id="MH">Maharastra</option>
+                    <option name="goa" id="GO">Goa</option>
+                    <option name="kerala" id="KE">Kerala</option>
                 </select>
-            </div>
-                <div style="float: right;">
+            
+                
                     <label class="selectstate" for="states">Select Package</label>
                 <select>
                     <option name="kar1" id="KAR1">₹10,999</option>
                     <option name="mah2" id="MH2"> ₹11,999</option>
-                    <option name="goa3" id="KE3">₹18,299</option>
+                    <option name="goa3" id="GO3">₹18,299</option>
                     <option name="ker4" id="KE4">₹28,999</option>
                 </select>
-                </div>
-                <div style="padding-left: 300px;">
+                
+                
                     <label class="selectstate" for="states">Select Car for rent</label>
                 <select>
-                    <option name="kar01" id="KAR01">SWIFT</option>
+                    <option name="kar01" id="KAR01">AUDI</option>
                     <option name="mah02" id="MH02">BREZZA</option>
-                    <option name="goa03" id="KE03">VERNA</option>
+                    <option name="goa03" id="GO03">VERNA</option>
                     <option name="ker04" id="KE04">CRETA</option>
                 </select>
+                <button style="color: rgb(255, 255, 255); background: #c60b0b;float: right;font-size: 20px; border-radius: 20px;margin-right: 50px;" id="btn01" formaction="./payment.html">BOOK NOW</button>
+        </div>
+        </div>
+        <hr>
+        <div>
+           <div class="col1">
+            <img class="imagetable" src="./thai.jpg" alt="">
+           </div>
+               <div class="col2">
+                    <div style="text-align: center;">
+                        <b><h3>THAILAND</h3></b>
+                    </div>
+                    <p style="padding-left: 15px; padding-right: 10px;">Thailand, often referred to as the "Land of Smiles," is a captivating travel destination in Southeast Asia that offers a perfect blend of rich cultural heritage, stunning natural landscapes, and vibrant urban experiences.</p>
+                    <label class="selectstate" for="states">Select  State</label>
+                <select>
+                    <option name="bangkok" id="BAN">Bangkok</option>
+                    <option name="phunket" id="PHU">Phuket</option>
+                    <option name="pattaya" id="PAT">Pattaya</option>
+                    <option name="krabi" id="KRA">Krabi</option>
+                </select>
+                <label class="selectstate" for="states">Select Package</label>
+                <select>
+                    <option name="bangkok1" id="BAN1">₹16,999</option>
+                    <option name="phunket2" id="PHU2"> ₹22,999</option>
+                    <option name="pattaya3" id="PAT3">₹28,299</option>
+                    <option name="krabi4" id="KRA4">₹38,999</option>
+                </select>
+                <label class="selectstate" for="states">Select Car for rent</label>
+                <select>
+                    <option name="bangkok01" id="BAN01">BMW</option>
+                    <option name="phunket02" id="PHU02">BREZZA</option>
+                    <option name="pattaya03" id="PAT03">VERNA</option>
+                    <option name="krabi04" id="KRA04">CRETA</option>
+                </select>
+                <button style="color: rgb(255, 255, 255); background: #c60b0b;float: right;font-size: 20px; border-radius: 20px;margin-right: 50px;" id="btn01" formaction="./payment.html">BOOK NOW</button>
                 </div>
+        </div>
+        <hr>
+        <div>
+            <div class="col1">
+            <img class="imagetable" src="./italy.jpg" alt="">
+            </div>
+                <div class="col2">   
+                <b><h3 style="text-align: center;">ITALY</h3></b>
+                <p style="padding-left: 15px; padding-right: 10px;">Italy, a country steeped in history, art, culture, and culinary excellence, is a dream destination for travelers. From ancient ruins to Renaissance masterpieces, picturesque coastlines to charming villages, Italy offers a rich tapestry of experiences that cater to every traveler's desires.</p>
+                    <label class="selectstate" for="states">Select  State</label>
+                <select>
+                    <option name="rome" id="ROM">Rome</option>
+                    <option name="florence" id="FLO">Florence</option>
+                    <option name="venice" id="VEN">Venice</option>
+                    <option name="capri" id="CAP">Capri</option>
+                </select>
+                <label class="selectstate" for="states">Select Package</label>
+                <select>
+                    <option name="rome1" id="ROM1">₹22,999</option>
+                    <option name="florence2" id="FLO2"> ₹31,999</option>
+                    <option name="venice3" id="VEN3">₹44,299</option>
+                    <option name="capri4" id="CAP4">₹48,999</option>
+                </select>
+                <label class="selectstate" for="states">Select Car for rent</label>
+                <select>
+                    <option name="rome01" id="ROM01">BENZ</option>
+                    <option name="florence02" id="FLO02">BREZZA</option>
+                    <option name="venice03" id="VEN03">VERNA</option>
+                    <option name="capri04" id="CAP04">CRETA</option>
+                </select>
+                <button style="color: rgb(255, 255, 255); background: #c60b0b;float: right;font-size: 20px; border-radius: 20px;margin-right: 50px;" id="btn01" formaction="./payment.html">BOOK NOW</button>
+                </div>
+                </div>
+        </div>
+        <hr>
+        <div>
+            <div class="col1">
+                <img class="imagetable" src="./brazil.jpg" alt="">
+            </div>
+            <div class="col2">
+                <b><h3 style="text-align: center;">BRAZIL</h3></b>
+                <p style="padding-left: 15px; padding-right: 10px;">Brazil, a vast and diverse country, is a land of vibrant culture, stunning landscapes, and a rich tapestry of traditions. From the bustling cities to the lush rainforests, and from the pristine beaches to the awe-inspiring waterfalls, Brazil offers an array of travel destinations that cater to various interests.</p>
+                    <label class="selectstate" for="states">Select  State</label>
+                <select>
+                    <option name="salvador" id="SAL">Salvador</option>
+                    <option name="pantanal" id="PAN">Pantanal</option>
+                    <option name="paraty" id="PAR">Paraty</option>
+                    <option name="recife" id="REC">Recife</option>
+                </select>
+                <label class="selectstate" for="states">Select Package</label>
+                <select>
+                    <option name="salvador1" id="SAL1">₹10,999</option>
+                    <option name="pantanal2" id="PAN2"> ₹11,999</option>
+                    <option name="paraty3" id="PAR3">₹18,299</option>
+                    <option name="recife4" id="REC4">₹28,999</option>
+                </select>
+                <label class="selectstate" for="states">Select Car for rent</label>
+                <select>
+                    <option name="salvador01" id="SAL01">SWIFT</option>
+                    <option name="pantanal02" id="PAN02">BREZZA</option>
+                    <option name="paraty03" id="PAR03">VERNA</option>
+                    <option name="recife04" id="REC04">CRETA</option>
+                </select>
+                <button style="color: rgb(255, 255, 255); background: #c60b0b;float: right;font-size: 20px; border-radius: 20px;margin-right: 50px;" id="btn01" formaction="./payment.html">BOOK NOW</button>
             </div>
         </div>
-        </div>
-        <div>
-         <div class="col1"><img class="imagetable" src="./thai.jpg" alt=""></div>
-        <div class="col2">THAILAND</div>
-        </div>
-        <div>
-        <div class="col1"><img class="imagetable" src="./italy.jpg" alt=""></div>
-        <div class="col2">ITALY</div>
-        </div>
-        <div>
-            <div class="col1"><img class="imagetable" src="./brazil.jpg" alt=""></div>
-            <div class="col2">BRAZIL</div>
-            </div>
+        <hr>
         <footer>
             <div class="footer">
             <div class="row">
